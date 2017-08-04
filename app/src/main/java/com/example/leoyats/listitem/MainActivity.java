@@ -12,13 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView countriesList = (ListView) findViewById(R.id.countriesList);
-
-        String[] countries = getResources().getStringArray(R.array.countries);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, countries);
-
-        countriesList.setAdapter(adapter);
+//        ListView countriesList = (ListView) findViewById(R.id.countriesList);
+//
+//        String[] countries = getResources().getStringArray(R.array.countries);
+//
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, countries);
+//
+//        countriesList.setAdapter(adapter);
 
 
     }
